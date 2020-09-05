@@ -1,3 +1,71 @@
+.container {
+  background-color: white;
+  height: 114px;
+  width: 480px;
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
+}
+
 .h1 {
-  color: red;
+  line-height: 60px;
+  font-size: x-large;
+  font-family: "Quicksand", sans-serif;
+  font-family: "Raleway", sans-serif;
+}
+
+.blueword {
+  color: blue;
+}
+
+.paragraph {
+  line-height: 10px;
+  font-weight: 400;
+  font-size: larger;
+  color: rgb(139, 135, 135);
+}
+
+.button1 a {
+  width: 200px;
+  height: 15px;
+  display: inline-block;
+  margin: 5% 20px;
+  padding: 20px 0px;
+  text-align: center;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: bold;
+  column-rule-color: white;
+  position: relative;
+  text-decoration: none;
+  letter-spacing: 1.5px;
+  color: white;
+  border-radius: 5px;
+}
+
+.button1 a:nth-child(1) {
+  background: blue;
+}
+
+.button2 a {
+  width: 200px;
+  height: 55px;
+  display: inline-block;
+  padding: 0px 5px;
+  text-align: center;
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: bold;
+  column-rule-color: white;
+  position: relative;
+  text-decoration: none;
+  letter-spacing: 1.5px;
+  color: rgb(19, 68, 204);
+  border-radius: 5px;
+  background-color: rgb(240, 239, 239);
+}
+
+.button2 a:nth-child(1) {
+  background: rgba(238, 238, 238, 0.959);
 }
