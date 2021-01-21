@@ -1,0 +1,12 @@
+.container {
+  height: 500px;
+  width: 1000px;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.words {
+  font-weight: 200;
+  height: 30px;
+  position: relative;
+}
